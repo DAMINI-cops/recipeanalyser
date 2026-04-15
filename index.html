@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AyurDiet</title>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">
+      <div class="icon">A</div>
+      <div>
+        <h1>AyurDiet</h1>
+        <p>Ayurvedic Diet Platform</p>
+      </div>
+    </div>
+
+    <div class="section-title">Main Features</div>
+
+    <nav>
+  <p>📊 Dashboard</p>
+  <p>➕ Create Diet Plan</p>
+  <p>📚 Food Database</p>
+  <p class="active">🍲 Recipe Analyzer</p>
+  <p>📈 Analytics</p>
+  <p>👤 Patients</p>
+</nav>
+
+    <div class="bottom">
+      <p class="section-title">System</p>
+      <span>Settings</span>
+
+      <div class="doctor">
+        <p>Dr. Anand's Practice</p>
+        <span>Integrative Ayurvedic Medicine</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+
+    <div class="card">
+
+      <h2>Recipe Analyzer</h2>
+      <p class="desc">
+        Analyze recipes for nutritional content and Ayurvedic properties
+      </p>
+
+      <div class="row">
+        <div class="input-group">
+          <label>Recipe Name</label>
+          <input type="text" placeholder="e.g., Spiced Lentil Dal">
+        </div>
+
+        <div class="input-group">
+          <label>Number of Servings</label>
+          <input type="number" value="4">
+        </div>
+      </div>
+
+      <div class="input-group">
+        <label>Recipe Ingredients & Instructions</label>
+        <textarea placeholder="Paste your recipe here or type it out..."></textarea>
+      </div>
+
+      <div class="actions">
+        <button class="primary">Analyze Recipe</button>
+        <button class="secondary">Upload Image</button>
+      </div>
+
+    </div>
+
+  </main>
+
+</div>
+
+</body>
+</html>
